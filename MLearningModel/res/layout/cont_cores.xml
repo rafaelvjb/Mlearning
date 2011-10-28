@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+        <TextView 
+        android:layout_width="wrap_content" 
+        android:id="@+id/textView1" 
+        android:layout_height="wrap_content" 
+        android:textSize="20sp"
+        android:text="Os valores de resistência são padronizados, o valor pode ser facilmente identificado de acordo com as cores que apresenta na cápsula que envolve o material resistivo. 
+As três primeiras se referem ao valor nominal e a quarta à tolerância, se existir 5 faixas coloridas, as 4 faixas são valores nominais e a quinta a tolerância.">
+        </TextView>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" 
+    android:src="@drawable/tabela_resistor" 
+    android:id="@+id/imgTabCores" 
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>

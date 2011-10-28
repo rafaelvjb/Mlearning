@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+    
+    <LinearLayout
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:layout_weight="1" 
+    android:orientation="horizontal">
+	  	<Button 
+       	android:id="@+id/btnConteudo" 
+       	android:text="Conteúdo" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="fill_parent"
+       	android:layout_weight="1">
+       	</Button>
+		
+		<Button 
+       	android:id="@+id/btnExtras" 
+       	android:text="Extras" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="fill_parent"
+		android:layout_weight="1">
+       	</Button>
+   	</LinearLayout>
+    
+    <LinearLayout
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:layout_weight="1" 
+    android:orientation="horizontal">
+	  	<Button 
+       	android:id="@+id/btnQuiz" 
+       	android:text="Quiz" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="fill_parent"
+       	android:layout_weight="1">
+       	</Button>
+		
+		<Button 
+       	android:id="@+id/btnPerform" 
+       	android:text="Desempenho" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="fill_parent"
+		android:layout_weight="1">
+       	</Button>
+   	</LinearLayout>
+    
+    <LinearLayout
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:layout_weight="1" 
+    android:orientation="horizontal">
+	   	<Button 
+       	android:id="@+id/btnForum" 
+       	android:text="Fórum" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="fill_parent"
+       	android:layout_weight="1">
+       	</Button>
+		
+		<Button 
+       	android:id="@+id/btnFeedback" 
+       	android:text="Feedback" 
+       	android:layout_width="fill_parent" 
+       	android:layout_height="fill_parent"
+		android:layout_weight="1">
+       	</Button>
+   	</LinearLayout>
+   	
+</LinearLayout>

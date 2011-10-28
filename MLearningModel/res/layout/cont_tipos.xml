@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:text="Dividido em dois tipos de resistores:
+    - Fixos: A sua resistência é fixa.
+	- Variáveis: A sua resistência varia. Também chamados de potenciômetros ou reostatos. O valor nominal é alterado ao girar um eixo ou deslizar uma alavanca. Exemplo: controlador de volume." 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textSize="20sp">
+    </TextView>
+</LinearLayout>

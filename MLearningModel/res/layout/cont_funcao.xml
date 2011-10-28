@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:text="Atenuar a corrente elétrica, serve para transformar energia elétrica em térmica ou limitar a corrente elétrica em um circuito." 
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textSize="20sp">
+    </TextView>
+</LinearLayout>
